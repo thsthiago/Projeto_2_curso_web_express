@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.clear{clear: both;}
+
+.center{
+  width: 100%;
+  padding: 0px 2%;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  background: #5e3ea1;
+  padding: 10px 0;
+  width: 100%;
+}
+
+header .flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo h3{
+  font-weight: normal;
+  font-size: 21px;
+  color: white;
+}
+
+header nav li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#section1{
+  background-color: #4c3282;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#section1 h1 i{
+  font-size: 40px;
+}
+
+#section1 h2{
+  font-weight: normal;
+}
+
+#section1 h2 b{
+  color: rgb(231, 66, 107);
+}
+
+#section1 h3{
+  font-weight: normal;
+}
+
+#section2{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 60px;
+}
+
+#section2 .flex .padding{
+  width: 33.3%;
+  padding: 1px 20px;
+  margin-top: 50px;
+}
+
+#section2 .cursos{
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgb(225,225,225);
+  height: 100%;
+}
+
+#section2 .cursos img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#section2 .cursos h1{
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+#section2 .cursos p{
+  text-align: left;
+  font-weight: lighter;
+  padding: 0 7px;
+  font-size: 15px;
+}
+
+#section2 .padding a{
+  text-decoration: none;
+  cursor: pointer;
+  background: #5fb382;
+  padding: 10px 8px;
+  width: 100%;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+#section3{
+  background-color: #4c3282;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#section3 h1 i{
+  font-size: 40px;
+}
+
+#section3 h2{
+  font-weight: normal;
+}
+
+#section3 h2 b{
+  color: rgb(231, 66, 107);
+}
+
+#section3 h3{
+  font-weight: normal;
+}
+
+#section4{
+  width: 100%;
+  padding: 0 2%;
+}
+
+#section4 .noticias,.depoimentos{
+  width: 50%;
+  padding: 40px 0;
+}
+
+#section4 .noticias{
+  padding-right: 35px;
+}
+
+#section4 .noticias h1{
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: rgb(110,110,110);
+}
+
+#section4 .noticias h3{
+  color: rgb(110,110,110);
+  margin-top: 40px;
+}
+
+#section4 .noticias p{
+  color: rgb(110,110,110);
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+}
+
+#section4 .depoimentos ul{
+  list-style-position: inside;
+}
+
+#section4 .depoimentos h3{
+  color: rgb(110,110,110);
+}
+
+#section4 .depoimentos p{
+  color: rgb(110,110,110);
+}
+
+#section4 .depoimentos h1{
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: rgb(110,110,110);
+}
+
+#section4 .depoimentos ul li{
+  margin-bottom: 7px;
+  color: rgb(110,110,110);
+}
+
+footer{
+  background-color: #3c2e58;
+  padding: 20px 0;
+  color: white;
+}
+
+footer .flex{
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .contatos p i{
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 700px) {
+  #section2 .flex .padding{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #section4 .noticias,.depoimentos{
+    width: 100%;
+  }
+
+  #section4 .depoimentos h3{
+    color: rgb(110,110,110);
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  #section4 .depoimentos p{
+    margin-bottom: 40px;
+  }
+
+  footer .contatos,.direitos{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+}
